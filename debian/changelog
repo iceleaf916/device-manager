@@ -1,0 +1,5 @@
+device-manager (1.0.0ubuntu1) unstable; urgency=medium
+
+  * refer to https://github.com/iceleaf916/device-manager
+
+ -- iceleaf <iceleaf916@gmail.com>  Mon, 02 Nov 2015 23:26:59 +0800

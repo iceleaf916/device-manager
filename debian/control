@@ -1,0 +1,29 @@
+Source: device-manager
+Maintainer: iceleaf <iceleaf916@gmail.com>
+Section: admin
+Priority: optional
+Build-Depends:
+ python-dev,
+ libcairo2-dev,
+ libdbus-1-dev,
+ libboost-python-dev,
+ libsensors4-dev,
+ gcc,
+ g++,
+ pkg-config
+Standards-Version: 3.9.5
+Homepage: https://github.com/iceleaf916/device-manager
+Vcs-Git: https://github.com/iceleaf916/device-manager.git
+Vcs-Browser: https://github.com/iceleaf916/device-manager
+
+Package: device-manager
+Architecture: i386 amd64
+Depends:
+ ${shlibs:Depends}, ${misc:Depends},
+ sysbench,
+ mesa-utils,
+ curl,
+ hwdata,
+ mesa-utils,
+ gettext
+Description: A device manager
